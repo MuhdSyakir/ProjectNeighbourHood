@@ -85,7 +85,6 @@ width: 80%;
             <a href="report_list.jsp">Report List</a>
             <a href="event_request.jsp">Request Event</a>
             <a href="user_event.jsp">List Event</a>
-            <a href="logout.jsp" class="logout">Logout</a>
             <!--<a href="incident.jsp">View Incidents</a>-->
         <% } %>
         <div class="section">
