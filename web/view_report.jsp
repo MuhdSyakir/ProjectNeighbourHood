@@ -15,7 +15,7 @@
 
 table { 
     width: 80%; 
-    margin: 20px auto; 
+    margin: 100px auto; 
     border-collapse: collapse; 
     border-radius: 10px; 
     overflow: hidden;
@@ -58,6 +58,7 @@ tr:nth-child(even) {
 tr:hover { 
     background-color: #e9ecef; 
     transition: 0.3s;
+
 }
 
     </style>
@@ -152,7 +153,6 @@ tr:hover {
 <% } %>
 
                 </table>
-    <p><a href="logout.jsp">Logout</a></p>
-    <p><a href="admindashboard.jsp">Back</a></p>
+<button><a href="admindashboard.jsp">Back</a></button>
 </body>
 </html>

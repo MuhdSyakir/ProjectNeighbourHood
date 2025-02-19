@@ -6,7 +6,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: url('images/5104326.jpg') no-repeat center center fixed;
+            background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('images/5104326.jpg') no-repeat center center fixed;
             background-size: cover;
             display: flex;
             justify-content: center;

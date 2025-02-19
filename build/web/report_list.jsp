@@ -15,7 +15,7 @@
         }
         .container {
             width: 90%;
-            margin: 50px auto;
+            margin: 180px auto;
             padding: 20px;
             /*background: rgba(0, 0, 0, 0.7);*/
             /*border-radius: 10px;*/

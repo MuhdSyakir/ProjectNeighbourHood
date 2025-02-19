@@ -18,7 +18,7 @@
 
 table { 
     width: 80%; 
-    margin: 20px auto; 
+    margin: 140px auto; 
     border-collapse: collapse; 
     border-radius: 10px; 
     overflow: hidden;

@@ -14,7 +14,7 @@
         }
         .container {
             width: 90%;
-            margin: 50px auto;
+            margin: 150px auto;
             padding: 20px;
 /*            background: rgba(0, 0, 0, 0.7);
             border-radius: 10px;*/
@@ -78,7 +78,6 @@
                 <th>Details</th>
                 <th>Date</th>
                 <th>Status</th>
-                <th>Action</th>
             </tr>
 
             <%
@@ -116,16 +115,7 @@
                 <td><%= details %></td>
                 <td><%= eventDate %></td>
                 <td class="<%= statusClass %>"><%= status %></td>
-                <td>
-                    <% if ("Pending".equals(status)) { %>
-                        <form action="CancelEventServlet" method="POST">
-                            <input type="hidden" name="event_id" value="<%= eventId %>">
-                            <button type="submit" class="cancel-btn">Cancel Request</button>
-                        </form>
-                    <% } else { %>
-                        ❌ No Action
-                    <% } %>
-                </td>
+                
             </tr>
             <% } 
                 if (!hasRequests) { %>

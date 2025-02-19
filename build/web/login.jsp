@@ -7,15 +7,19 @@
        body {
     font-family: Arial, sans-serif;
 /*    background: url('images/background.jpg') no-repeat center center fixed;*/
-background: url('images/rumah1.jpg') no-repeat center center fixed;
+/*background: url('images/rumah1.jpg') no-repeat center center fixed ;
+background-size: cover;*/
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), 
+                url('images/rumah1.jpg') no-repeat center center fixed;
+    background-size: cover;
+display: flex;
 
-background-size: cover;
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
 }
+
 
 
         .container {
